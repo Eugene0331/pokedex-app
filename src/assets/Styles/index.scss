@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
+@import "./skin";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header form {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-search {
+  width: 20px;
+  height: 20px;
+  stroke: #555;
+}
+
+.water {
+  background-color: $color-water;
+}
+
+.grass {
+  background-color: $color-grass;
+}
+
+.poison {
+  background-color: $color-poison;
+}
+
+.fire {
+  background-color: $color-fire;
+}
+
+.bug {
+  background-color: $color-bug;
+}
+
+.dragon {
+  background: $color-dragon;
+}
+
+.flying {
+  background-color: $color-flying;
+}
+
+.ground {
+  background-color: $color-ground;
+}
+
+.steel {
+  background-color: $color-steel;
+}
+
+.psychic {
+  background-color: $color-psychic;
+}
+
+.ice {
+  background-color: $color-ice;
+}
+
+.ghost {
+  background-color: $color-ghost;
+}
+
+.normal {
+  background-color: $color-normal;
+}
+
+.rock {
+  background-color: $color-rock;
+}
+
+.electric {
+  background-color: $color-electric;
+}
+
+.fighting {
+  background-color: $color-fighting;
+}
+
+.fairy {
+  background-color: $color-fairy;
+}
+
+.dark {
+  background-color: $color-dark;
+}

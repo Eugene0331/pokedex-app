@@ -1,0 +1,26 @@
+@import "../../assets/Styles/index.scss";
+
+.card-list-pokemon {
+  @media screen and (min-width: 420px) {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+  }
+
+  @media screen and (min-width: 576px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: 992px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (min-width: 1080px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
