@@ -48,6 +48,12 @@ header form {
   display: flex;
   align-items: center;
   gap: 15px;
+
+  @media screen and (max-width: 480px) {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+  }
 }
 
 .water {

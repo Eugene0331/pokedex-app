@@ -11,11 +11,17 @@
   margin-top: 20px;
   display: flex;
   align-items: center;
-  position: relative;
+
+  @media screen and (max-width: 480px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
 
 .number-pokemon {
-  position: absolute;
   margin-left: 15px;
   margin-top: 25px;
   top: -130px;
@@ -52,7 +58,7 @@
 .info-pokemon {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin: 30px;
 }
 
 .group-info {
@@ -96,4 +102,7 @@
   height: 30px;
   background-color: $color-primary;
   border-radius: 10px;
+}
+.title-stats {
+  margin: 20px;
 }

@@ -25,13 +25,12 @@ export const PokemonPage = () => {
   }, []);
 
   return (
-    <main className="container main-pokemon">
+    <main className="main-pokemon ">
       {loading ? (
         <Loader />
       ) : (
         <>
           <div className="header-main-pokemon">
-            <span className="number-pokemon">#{pokemon.id}</span>
             <div className="container-img-pokemon">
               <img
                 src={pokemon.sprites.other.dream_world.front_default}
@@ -62,7 +61,7 @@ export const PokemonPage = () => {
           </div>
 
           <div className="container-stats">
-            <h1>Statistics</h1>
+            <h1 className="title-stats">Statistics</h1>
             <div className="stats">
               <div className="stat-group">
                 <span>Hp</span>
