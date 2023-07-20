@@ -8,11 +8,3 @@
 .p-search span {
   font-weight: 700;
 }
-
-.card-list-pokemon {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-}

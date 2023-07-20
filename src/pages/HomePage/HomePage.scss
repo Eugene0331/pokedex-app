@@ -2,20 +2,16 @@
 
 .container-filter {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-filter {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   cursor: pointer;
-}
-
-.icon-filter .icon {
-  width: 30px;
-  height: 30px;
-  stroke: #555;
 }
 
 .container-btn-load-more {

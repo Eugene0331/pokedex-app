@@ -26,9 +26,7 @@ export const FilterBar = () => {
     "water",
   ];
   return (
-    <div
-      className={`container-filters-bar container ${active ? "active" : ""}`}
-    >
+    <div className={`container-filters-bar ${active ? "active" : ""}`}>
       <ImCancelCircle
         className="icon-filter-hide-btn"
         size={24}

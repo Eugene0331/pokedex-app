@@ -8,7 +8,7 @@ export const HomePage = () => {
   const { onClickLoadMore, active, setActive } = useContext(PokemonContext);
   return (
     <>
-      <div className="container-filter container">
+      <div className="container-filter">
         <div className="icon-filter" onClick={() => setActive(!active)}>
           <TfiMenuAlt size={24} />
           <span>Filter</span>

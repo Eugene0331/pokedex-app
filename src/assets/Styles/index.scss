@@ -15,6 +15,26 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  @media screen and (max-width: 991px) {
+    flex-basis: calc(33.333% - 20px);
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-basis: calc(50% - 20px);
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-basis: 100%;
+    justify-content: center;
+  }
 }
 
 header {
@@ -28,12 +48,6 @@ header form {
   display: flex;
   align-items: center;
   gap: 15px;
-}
-
-.icon-search {
-  width: 20px;
-  height: 20px;
-  stroke: #555;
 }
 
 .water {
