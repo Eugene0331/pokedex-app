@@ -21,16 +21,6 @@
   }
 }
 
-.number-pokemon {
-  margin-left: 15px;
-  margin-top: 25px;
-  top: -130px;
-  left: 0;
-  font-size: 170px;
-  font-weight: 700;
-  color: $color-primary-hover;
-}
-
 .container-img-pokemon {
   order: 2;
   flex: 1;
@@ -107,5 +97,8 @@
   border-radius: 10px;
 }
 .title-stats {
+  display: flex;
+
+  justify-content: center;
   margin: 20px;
 }

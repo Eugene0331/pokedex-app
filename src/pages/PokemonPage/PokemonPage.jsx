@@ -60,8 +60,8 @@ export const PokemonPage = () => {
             </div>
           </div>
 
+          <h1 className="title-stats">Statistics</h1>
           <div className="container-stats">
-            <h1 className="title-stats">Statistics</h1>
             <div className="stats">
               <div className="stat-group">
                 <span>Hp</span>
