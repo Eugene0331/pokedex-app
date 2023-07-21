@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   position: fixed;
+  overflow-x: auto;
   top: 0;
   left: -300px;
   width: 250px;
@@ -12,6 +13,9 @@
   height: 100%;
   padding-top: 140px;
   transition: all 0.3s linear;
+}
+.container-filters-bar::-webkit-scrollbar {
+  display: none;
 }
 
 .container-filters-bar.active {

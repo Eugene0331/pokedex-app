@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px;
   border-radius: 5px;
   height: 200px;
   transition: transform 0.3s ease;
@@ -43,6 +44,6 @@
 .card-types span {
   font-size: 12px;
   padding: 5px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
 }

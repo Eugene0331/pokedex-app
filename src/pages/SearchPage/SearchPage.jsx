@@ -14,17 +14,18 @@ export const SearchPage = () => {
   });
 
   return (
-    <div className="container">
-      <p className="p-search"></p>
-      <div className="card-list-pokemon">
-        {filteredPokemons.length > 0 ? (
-          filteredPokemons.map((pokemon) => (
-            <CardPokemon pokemon={pokemon} key={pokemon.id} />
-          ))
-        ) : (
-          <p>Something went wrong...</p>
-        )}
-      </div>
+    <div className="card-list-search">
+      {filteredPokemons.length > 0 ? (
+        filteredPokemons.map((pokemon) => (
+          <CardPokemon pokemon={pokemon} key={pokemon.id} />
+        ))
+      ) : (
+        <>
+          <div className="search-error">
+            <p className="text-search">Something went wrong...</p>
+          </div>
+        </>
+      )}
     </div>
   );
 };
